@@ -4,6 +4,9 @@
     "code": {"string": {}}
   },
   "Industry": {
+    "_": {
+      "items": 6
+    },
     "industry": {"string": ["Oil", "HVAC", "Pumbing Motor", "Gas", "Drives", "Machines"]},
     "id": {"string": {}}
   }
