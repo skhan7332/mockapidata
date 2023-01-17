@@ -1,6 +1,6 @@
 {
   "Country": {
-    "name": {"string": {}}
+    "name": {"string": {}},
     "code": {"string": {}}
   }
 }
