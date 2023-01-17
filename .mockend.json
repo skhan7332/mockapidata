@@ -12,5 +12,33 @@
     },
     "industry": {"string": ["Oil", "HVAC", "Pumbing Motor", "Gas", "Drives", "Machines"]},
     "id": {"string": {}}
+  },
+  "Project": {
+    "_": {
+      "items": 20
+    },
+    "projectId": {
+      "string": {}
+    },
+    "name": {
+      "string": {}
+    },
+    "country": {
+      "belongsTo": "Country",
+      "string": {}
+    },
+    "industry": {
+      "belongsTo": "Industry",
+      "string": {}
+    },
+    "company": {
+      "string": {}
+    },
+    "lastUpdated": {
+      "dateTime": {
+        "min": "2013-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
+      }
+    }
   }
 }
