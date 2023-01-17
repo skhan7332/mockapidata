@@ -24,12 +24,10 @@
       "string": {}
     },
     "country": {
-      "belongsTo": "Country",
-      "string": {}
+      "belongsTo": "Country"
     },
     "industry": {
-      "belongsTo": "Industry",
-      "string": {}
+      "belongsTo": "Industry"
     },
     "company": {
       "string": {}
