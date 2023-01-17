@@ -2,5 +2,9 @@
   "Country": {
     "name": {"string": {}},
     "code": {"string": {}}
+  },
+  "Industry": {
+    "industry": {"string": ["Oil", "HVAC", "Pumbing Motor", "Gas", "Drives", "Machines"]},
+    "id": {"string": {}}
   }
 }
