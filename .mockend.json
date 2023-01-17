@@ -1,5 +1,8 @@
 {
   "Country": {
+    "_": {
+      "items": 20
+    },
     "name": {"string": {}},
     "code": {"string": {}}
   },
