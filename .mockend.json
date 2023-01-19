@@ -23,6 +23,9 @@
     "name": {
       "string": {}
     },
+    "contactPerson": {
+      "string": {}
+    },
     "country": {
       "belongsTo": "Country"
     },
