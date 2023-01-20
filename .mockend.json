@@ -40,6 +40,9 @@
         "min": "2013-01-01T00:00:00Z",
         "max": "2023-01-31T23:59:59Z"
       }
+    },
+    "configurations": {
+      "hasMany": "Configuration"
     }
   },
   "Configuration": {
@@ -49,7 +52,7 @@
     "configurationId": {
       "string": {}
     },
-    "projectId": {
+    "project": {
       "belongsTo": "Project"
     },
     "name": {
