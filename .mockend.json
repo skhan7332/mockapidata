@@ -41,5 +41,25 @@
         "max": "2023-01-31T23:59:59Z"
       }
     }
+  },
+  "Configuration": {
+    "_": {
+      "items": 10
+    },
+    "configurationId": {
+      "string": {}
+    },
+    "projectId": {
+      "belongsTo": "Project"
+    },
+    "name": {
+      "string": {}
+    },
+    "lastUpdated": {
+      "dateTime": {
+        "min": "2013-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
+      }
+    }
   }
 }
